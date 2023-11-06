@@ -104,6 +104,27 @@
 			}
 		}
 	}
+	ul.bullet-points {
+		list-style: none;
+		padding-left: 1.5em;
+	  }
+	  
+	  ul.bullet-points > li {
+		position: relative;
+	  }
+	  
+	  ul.bullet-points > li:before {
+		content: "";
+		display: inline-block;
+		width: 10px; /* Adjust the size of the bullet point circle */
+		height: 10px; /* Adjust the size of the bullet point circle */
+		border-radius: 50%;
+		background-color: #000; /* Adjust the color of the bullet point circle */
+		position: absolute;
+		top: 0.5em; /* Adjust the vertical alignment of the bullet point circle */
+		left: -1em;
+	  }
+	
 
 	.technicalSvg {
 		position: absolute;

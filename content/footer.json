@@ -9,6 +9,10 @@
 
   "social": [
     {
+      "url": "mailto:atayal99@gmail.com",
+      "icon": "envelope"
+    },
+    {
       "url": "https://www.linkedin.com/in/aryantayal/",
       "icon": "linkedin"
     },

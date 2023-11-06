@@ -165,6 +165,7 @@ export default function Career() {
                         - Created and streamlined business automation flows,
                         resulting in increased efficiency and productivity.
                       </li>
+                      <li>- Maintain all social media platforms to</li>
                     </ul>
                   </p>
                   <Badges

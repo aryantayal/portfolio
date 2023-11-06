@@ -34,12 +34,12 @@ export default function Career() {
               <span className={career.companyHeader}>
                 <h3>American Family Insurance</h3>
                 <h4>Full-time</h4>
-                <h4>July 2021 - Present · 2 yrs 4 months</h4>
+                <h4>July 2021 - Present &middot; 2 yrs 4 months</h4>
                 <h5>Madison, Wisconsin (Remote)</h5>
               </span>
               <p>
                 Madison, Wisconsin-based, American Family Insurance group is the
-                nation's 13th-largest property/casualty insurance group and
+                nation&apos;s 13th-largest property/casualty insurance group and
                 ranks No. 251 on the Fortune 500 list. American Family sells
                 products, including auto, homeowners, life, business, and
                 commercial/farm/ranch insurance, primarily through its exclusive
@@ -52,13 +52,13 @@ export default function Career() {
           <article className={career.companyPositions}>
             <div className={career.position}>
               <div className={career.positionContent}>
-                <span class={career.positionHeader}>
+                <span className={career.positionHeader}>
                   <h3>Web Application Engineer</h3>
-                  <h4>July 2021 - Present · 2 yrs 4 months</h4>
+                  <h4>July 2021 - Present &middot; 2 yrs 4 months</h4>
                 </span>
                 <div>
                   <p>
-                    <ul class="bullet-points">
+                    <ul className="bullet-points">
                       <li>
                         - Develop features/fix bugs for MyAccount, a web
                         application utilized by 5,000,000+ customers to manage
@@ -91,7 +91,7 @@ export default function Career() {
                           </li>
                         </ul>
                       </li>
-                      <br></br>
+                      <br />
                       <li>
                         - Design and develop a dashboard used by 100+ Enterprise
                         Project Managers and Product Owners to help identify

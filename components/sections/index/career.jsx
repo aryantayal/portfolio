@@ -289,6 +289,8 @@ const fullStack = [
   { key: "git", name: "Git", type: "devicon" },
   { key: "figma", name: "Figma", type: "devicon" },
   { key: "materialui", name: "Material UI", type: "devicon" },
+  { key: "jira", name: "Jira", type: "devicon" },
+  { key: "confluence", name: "Confluence", type: "devicon" },
 ];
 
 const stack = [

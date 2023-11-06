@@ -53,7 +53,7 @@ export default function Career() {
             <div className={career.position}>
               <div className={career.positionContent}>
                 <span className={career.positionHeader}>
-                  <h3>Web Application Engineer</h3>
+                  <h3>Application Development Engineer</h3>
                   <h4>July 2021 - Present &middot; 2 yrs 4 months</h4>
                 </span>
                 <div>
@@ -275,19 +275,19 @@ export default function Career() {
 }
 
 const fullStack = [
+  { key: "angularjs", name: "Angular", type: "devicon" },
+  { key: "react", name: "React", type: "devicon" },
   { key: "javascript", name: "JavaScript", type: "devicon" },
   { key: "typescript", name: "TypeScript", type: "devicon" },
   { key: "nodejs", name: "NodeJS", type: "devicon" },
-  { key: "angularjs", name: "Angular", type: "devicon" },
-  { key: "react", name: "React", type: "devicon" },
   { key: "nextjs", name: "NextJS", type: "devicon" },
   { key: "amazonwebservices", name: "Amazon Web Services", type: "devicon" },
-  { key: "terraform", name: "Terraform", type: "devicon" },
   { key: "jest", name: "Jest", type: "devicon" },
   { key: "html5", name: "HTML", type: "devicon" },
   { key: "css3", name: "CSS", type: "devicon" },
   { key: "git", name: "Git", type: "devicon" },
   { key: "figma", name: "Figma", type: "devicon" },
+  { key: "terraform", name: "Terraform", type: "devicon" },
   { key: "materialui", name: "Material UI", type: "devicon" },
   { key: "jira", name: "Jira", type: "devicon" },
   { key: "confluence", name: "Confluence", type: "devicon" },

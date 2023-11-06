@@ -78,27 +78,26 @@ export default function Technical() {
 }
 
 const software = [
+  { key: "vscode", name: "VSCode", type: "devicon" },
+  { key: "figma", name: "Figma", type: "devicon" },
+  { key: "mailbox", name: "Postman", type: "fas" },
   { key: "photoshop", name: "Photoshop", type: "devicon" },
   { key: "illustrator", name: "Illustrator", type: "devicon" },
-  { key: "figma", name: "Figma", type: "devicon" },
-  { key: "vscode", name: "VSCode", type: "devicon" },
-  { key: "mailbox", name: "Postman", type: "fas" },
   { key: "aftereffects", name: "After Effects", type: "devicon" },
   { key: "premierepro", name: "Premiere Pro", type: "devicon" },
 ];
 
 const tech = [
+  { key: "react", name: "React", type: "devicon" },
+  { key: "angularjs", name: "Angular", type: "devicon" },
   { key: "javascript", name: "JavaScript", type: "devicon" },
   { key: "typescript", name: "TypeScript", type: "devicon" },
   { key: "python", name: "Python", type: "devicon" },
   { key: "nodejs", name: "NodeJS", type: "devicon" },
-  { key: "react", name: "React", type: "devicon" },
-  { key: "angularjs", name: "Angular", type: "devicon" },
   { key: "nextjs", name: "NextJS", type: "devicon" },
   { key: "amazonwebservices", name: "Amazon Web Services", type: "devicon" },
   { key: "googlecloud", name: "Google Cloud", type: "devicon" },
   { key: "wordpress", name: "WordPress", type: "devicon" },
-  { key: "google", name: "GA4/GTM", type: "devicon" },
   { key: "html5", name: "HTML5", type: "devicon" },
   { key: "css3", name: "CSS3", type: "devicon" },
   { key: "sass", name: "SASS", type: "devicon" },

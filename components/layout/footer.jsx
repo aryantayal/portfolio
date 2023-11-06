@@ -10,7 +10,7 @@ export default function Footer() {
     <footer className={css.container}>
       <Container spacing={["verticalXXLrg", "bottomLrg"]}>
         <section className={css.sections}>
-          <ul className={css.thanks}>
+          {/* <ul className={css.thanks}>
             <li>
               <h4>Acknowledgments</h4>
             </li>
@@ -25,7 +25,7 @@ export default function Footer() {
                 </li>
               );
             })}
-          </ul>
+          </ul> */}
           <ul className={css.links}>
             <li>
               <h4>Links</h4>

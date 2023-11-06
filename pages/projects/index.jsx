@@ -3,6 +3,7 @@ import GitRecentProjects from "../../components/sections/projects/recent";
 import FeaturedProjects from "../../components/sections/projects/featured";
 
 import Color from "../../components/utils/page.colors.util";
+import ComingSoon from "../../components/sections/comingsoon";
 
 import settings from "../../content/_settings.json";
 import colors from "../../content/projects/_colors.json";
@@ -11,11 +12,12 @@ export const runtime = "edge";
 //
 export default function Projects({ user, repos }) {
   return (
-    <>
-      <Color colors={colors} />
-      <FeaturedProjects />
-      <GitRecentProjects user={user} repos={repos} />
-    </>
+    // <>
+    //   <Color colors={colors} />
+    //   <FeaturedProjects />
+    //   <GitRecentProjects user={user} repos={repos} />
+    // </>
+    <ComingSoon></ComingSoon>
   );
 }
 

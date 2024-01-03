@@ -34,7 +34,7 @@ export default function Career() {
               <span className={career.companyHeader}>
                 <h3>American Family Insurance</h3>
                 <h4>Full-time</h4>
-                <h4>July 2021 - Present &middot; 2 yrs 4 months</h4>
+                <h4>July 2021 - Present &middot; 2 yrs 5 months</h4>
                 <h5>Madison, Wisconsin (Remote)</h5>
               </span>
               <p>
@@ -54,7 +54,7 @@ export default function Career() {
               <div className={career.positionContent}>
                 <span className={career.positionHeader}>
                   <h3>Application Development Engineer</h3>
-                  <h4>July 2021 - Present &middot; 2 yrs 4 months</h4>
+                  <h4>July 2021 - Present &middot; 2 yrs 5 months</h4>
                 </span>
                 <div>
                   <p>

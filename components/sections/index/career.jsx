@@ -128,7 +128,7 @@ export default function Career() {
               <div className={career.positionAlt}></div>
             </div>
           </article>
-          <article className={career.company}>
+          {/* <article className={career.company}>
             <div className={career.companyContent}>
               <span className={career.companyHeader}>
                 <h3>Bloom Media</h3>
@@ -177,7 +177,7 @@ export default function Career() {
               </div>
               <div className={career.positionAlt}></div>
             </div>
-          </article>
+          </article> */}
         </section>
       </Container>
     </Section>

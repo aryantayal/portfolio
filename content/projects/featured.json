@@ -23,8 +23,8 @@
     "project": "Smart Pet Hydration Monitor",
     "url": "https://github.com/aryantayal/SmartPet-Hydration-Monitor",
     "repo": "Public",
-    "descriptionTitle": "Personal Project",
-    "description": "The SmartPet Hydration Monitor uses RFID dog tags and a user interface to track and optimize pets water intake in real time. Users can set customized hydration goals for each pet and the system automatically dispenses water to ensure optimal hydration levels. The intuitive interface provides at a glance monitoring, insightful analytics, and mobile access to each pets hydration data. It allows owners to easily stay on top of their pets drinking patterns. While functional, the current interface was a proof of concept developed under tight timelines. With more time, it would be completely redesigned to maximize usability. This project was my senior capstone and won first place recognition for innovation in improving pet health.",
+    "descriptionTitle": "The SmartPet Hydration Monitor",
+    "description": " uses RFID dog tags and a user interface to track and optimize pets water intake in real time. Users can set customized hydration goals for each pet and the system automatically dispenses water to ensure optimal hydration levels. The intuitive interface provides at a glance monitoring, insightful analytics, and mobile access to each pets hydration data. It allows owners to easily stay on top of their pets drinking patterns. While functional, the current interface was a proof of concept developed under tight timelines. With more time, it would be completely redesigned to maximize usability. This project was my senior capstone and won first place recognition for innovation in improving pet health.",
     "imageOptions": [{ "key": "size", "value": "large" }],
     "images": [],
     "stack": [

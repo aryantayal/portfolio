@@ -1,46 +1,22 @@
 [
   {
-    "project": "SmartPet-Hydration-Monitor",
-    "url": "https://mysupplyco.com",
-    "repo": "Private",
-    "descriptionTitle": "D2C & B2B ecommerce site and blog",
-    "description": "with elegant solutions for a complex codebase and customer journey.",
+    "project": "Ecommerce Store (Dashboard & CMS)",
+    "url": "https://github.com/aryantayal/ecom",
+    "repo": "Public",
+    "descriptionTitle": "*In Progress Still* Full-stack ecommerce platform",
+    "description": "I built this full-stack E-Commerce web application with Admin Dashboard using Next.js 14 App Router, React, Tailwind CSS, Prisma, and other latest technologies to strengthen my skills developing complex client-side routing, authenticated flows, reusable components, and integrated payments. After configuring the dev environment, designing the admin and store UI, modeling backend entities with Prisma, enabling cart functionality, and finalizing Stripe checkout, I deployed the production-ready platform to demonstrate my full-stack architecture and development abilities.",
     "imageOptions": [],
-    "images": [
-      {
-        "key": "mock-stack",
-        "hover": "right",
-        "h": "1200",
-        "w": "556",
-        "url": "/img/msc-mock_stack/03.png"
-      },
-      {
-        "key": "mock-stack",
-        "hover": "right",
-        "h": "1200",
-        "w": "556",
-        "url": "/img/msc-mock_stack/02.png"
-      },
-      {
-        "key": "mock-stack",
-        "hover": "left",
-        "h": "1200",
-        "w": "556",
-        "url": "/img/msc-mock_stack/01.png"
-      }
-    ],
+    "images": [],
     "stack": [
-      { "key": "php", "name": "PHP", "type": "devicon" },
-      { "key": "mysql", "name": "mySQL", "type": "devicon" },
-      { "key": "javascript", "name": "JavaScript", "type": "devicon" },
-      { "key": "jquery", "name": "jQuery", "type": "devicon" },
-      { "key": "woocommerce", "name": "WooCommerce", "type": "devicon" },
-      { "key": "wordpress", "name": "Wordpress", "type": "devicon" },
-      { "key": "html5", "name": "HTML5", "type": "devicon" },
-      { "key": "css3", "name": "CSS3", "type": "devicon" },
-      { "key": "sass", "name": "SCSS", "type": "devicon" },
-      { "key": "git", "name": "Git(Hub)", "type": "devicon" },
-      { "key": "google", "name": "GA4/GTM/EEC", "type": "devicon" }
+      { "key": "react", "name": "React", "type": "devicon" },
+      { "key": "nextjs", "name": "Next.js", "type": "devicon" },
+      { "key": "tailwindcss", "name": "Tailwind CSS", "type": "devicon" },
+      { "key": "prisma", "name": "Prisma", "type": "devicon" },
+      { "key": "planetscale", "name": "PlanetScale", "type": "devicon" },
+      { "key": "vercel", "name": "Vercel", "type": "devicon" },
+      { "key": "mongodb", "name": "MongoDB", "type": "devicon" },
+      { "key": "jwt", "name": "JWT", "type": "devicon" },
+      { "key": "stripe", "name": "Stripe", "type": "devicon" }
     ]
   },
   {
@@ -48,7 +24,7 @@
     "url": "https://github.com/aryantayal/SmartPet-Hydration-Monitor",
     "repo": "Public",
     "descriptionTitle": "Personal Project",
-    "description": "The SmartPet Hydration Monitor employs RFID dog tags and an intuitive UI to track and optimize individual pets' water consumption in real-time, allowing users to set personalized hydration goals and ensuring optimal levels through an automated dispensing system, providing a user-friendly experience with insightful analytics and mobile accessibility.",
+    "description": "The SmartPet Hydration Monitor uses RFID dog tags and a user interface to track and optimize pets water intake in real time. Users can set customized hydration goals for each pet and the system automatically dispenses water to ensure optimal hydration levels. The intuitive interface provides at a glance monitoring, insightful analytics, and mobile access to each pets hydration data. It allows owners to easily stay on top of their pets drinking patterns. While functional, the current interface was a proof of concept developed under tight timelines. With more time, it would be completely redesigned to maximize usability. This project was my senior capstone and won first place recognition for innovation in improving pet health.",
     "imageOptions": [{ "key": "size", "value": "large" }],
     "images": [],
     "stack": [

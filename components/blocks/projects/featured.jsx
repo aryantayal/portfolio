@@ -70,7 +70,15 @@ export default function FeaturedProject({ content }, index) {
               color={false}
             />
           </div>
-          <m.div variants={""} className={css.viewProject}>
+          <m.div
+            variants={""}
+            className={`${css.viewProject} ${url ? css.clickable : ""}`}
+            onClick={() => {
+              if (url) window.open(url, "_blank");
+            }}
+            role={url ? "button" : undefined}
+            tabIndex={url ? 0 : undefined}
+          >
             <Icon icon={["fad", "arrow-right-to-bracket"]} />
           </m.div>
         </div>

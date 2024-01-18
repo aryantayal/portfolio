@@ -34,7 +34,7 @@ export default function Career() {
               <span className={career.companyHeader}>
                 <h3>American Family Insurance</h3>
                 <h4>Full-time</h4>
-                <h4>July 2021 - Present &middot; 2 yrs 5 months</h4>
+                <h4>July 2021 - Present &middot; 2 yrs 6 months</h4>
                 <h5>Madison, Wisconsin (Remote)</h5>
               </span>
               <p>
@@ -54,68 +54,69 @@ export default function Career() {
               <div className={career.positionContent}>
                 <span className={career.positionHeader}>
                   <h3>Application Development Engineer</h3>
-                  <h4>July 2021 - Present &middot; 2 yrs 5 months</h4>
+                  <h4>July 2021 - Present &middot; 2 yrs 6 months</h4>
                 </span>
                 <div>
                   <p>
                     <ul className="bullet-points">
                       <li>
-                        - Develop features/fix bugs for MyAccount, a web
-                        application utilized by 5,000,000+ customers to manage
-                        policies, payments, file claims, access insurance
-                        card/information, etc. – Angular, TypeScript, AWS
-                        <ul>
-                          <li>
-                            - Took ownership of creating an accessible and
-                            user-friendly live version of the Proof of Insurance
-                            card by removing extra system dependencies to
-                            improve availability and allowing customers to
-                            access policy information
-                          </li>
-                          <li>
-                            - Worked on a Context API to upsell customers on new
-                            policies provided by Recommendation Systems
-                            resulting in achieving upsell goals 5 months in
-                            advance – Nest.js, NodeJS, AWS
-                          </li>
-                          <li>
-                            - Implemented Caching for API responses resulting in
-                            a reduced amount of API calls and AWS cost – AWS
-                            Lambda
-                          </li>
-                          <li>
-                            - Implemented Adobe Analytics and conducted
-                            end-to-end / unit code testing by creating Cypress &
-                            Jest tests to ensure application stability and a
-                            user-friendly experience
-                          </li>
-                        </ul>
+                        Develop MyAccount, a web application utilized by
+                        5,000,000+ customers to manage policies, payments, file
+                        claims, access insurance card/information, etc.
                       </li>
                       <br />
                       <li>
-                        - Design and develop a dashboard used by 100+ Enterprise
-                        Project Managers and Product Owners to help identify
-                        where the Enterprise can prioritize new work, improve
-                        sales and IVANS (Independent Agent Profile) downloads –
-                        React.JS, Material UI, MobX, AWS, Figma
+                        - Design, collaborate and successfully migrate several
+                        applications to AWS. Maintain a monorepo that includes
+                        SPAs and APIs hosted on AWS – Angular/TypeScript,
+                        NodeJs, NgRx, RxJS
                       </li>
+
+                      <li>
+                        - Develop a Context API to upsell customers on new
+                        policies resulting in achieving upsell goals 5 months in
+                        advance – NestJS, NodeJS, AWS
+                      </li>
+
+                      <li>
+                        - Streamlined CI/CD processes, integrating security
+                        scans, testing, and multi-environment deployment and
+                        created Lambda functions to cache multiple API responses
+                        to reduce AWS cost. – AWS Lambda, CloudFormation,
+                        CloudFront, S3
+                      </li>
+
+                      <li>
+                        - Spearheaded the design and development of a ReactJs
+                        dashboard used by 100+ Project Managers and Product
+                        Owners to identify prioritization of new work, improve
+                        sales and IVANS downloads – Material UI, MobX, AWS,
+                        Figma
+                      </li>
+
                       <li>
                         - Implement a Terraform Module template for all tech
                         types to push/pull packages to/from Enterprise
                         Artifactory for all Enterprise developers to utilize –
-                        Terraform JFrog, NodeJS, Maven, PIP, AWS, Octopus Deploy
+                        JFrog, NodeJS, Maven, PIP, AWS, Octopus Deploy
                       </li>
+
                       <li>
-                        - Write Confluence documentation for end users to
-                        maximize efficient application usage to derive desired
-                        results
+                        - Conduct end to end / unit code testing by creating
+                        Cypress & Jest tests and implement Adobe Analytics to
+                        ensure application stability and a user friendly
+                        experience
                       </li>
+
                       <li>
-                        - Work in an Agile framework and take on leadership
+                        - Practice Agile framework and take on leadership
                         responsibilities by creating new stories/tasks,
                         maintaining backlog health and delegating tasks from
-                        Jira board
+                        Jira board. Write Confluence documentation for end users
+                        to maximize efficient application usage to derive
+                        desired results
                       </li>
+                      <br />
                     </ul>
                   </p>
                   <Badges

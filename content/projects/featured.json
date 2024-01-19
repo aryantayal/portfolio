@@ -3,7 +3,7 @@
     "project": "Ecommerce Store (Dashboard & CMS)",
     "url": "https://github.com/aryantayal/ecom",
     "repo": "Public",
-    "descriptionTitle": "*In Progress Still* Full-stack ecommerce platform",
+    "descriptionTitle": "*In Progress* Full-stack ecommerce platform",
     "description": "I am builing a full-stack E-Commerce web application with Admin Dashboard using Next.js 14 App Router, React, Tailwind CSS, Prisma, and other latest technologies to strengthen my skills developing complex client-side routing, authenticated flows, reusable components, and integrated payments. After configuring the dev environment, designing the admin and store UI, modeling backend entities with Prisma, enabling cart functionality, and finalizing Stripe checkout.",
     "imageOptions": [],
     "images": [],

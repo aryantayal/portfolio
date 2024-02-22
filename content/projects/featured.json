@@ -1,5 +1,38 @@
 [
   {
+    "project": "Job Search Mobile App",
+    "url": "https://github.com/aryantayal/react-native-Job-Search",
+    "repo": "Public",
+    "descriptionTitle": "React Native Job Search Application",
+    "description": "A React Native mobile application that allows users to browse and apply for developer jobs. The app fetches job data from the J Search Rapid API using Axios, a popular promise-based HTTP client, and implements features such as job type filtering, search functionality, pagination, and job details pages.",
+    "imageOptions": [],
+    "images": [
+      {
+        "key": "mock-stack",
+        "hover": "right",
+        "h": "1200",
+        "w": "556",
+        "url": "/img/react-native-job/2.png"
+      },
+
+      {
+        "key": "mock-stack",
+        "hover": "left",
+        "h": "1200",
+        "w": "556",
+        "url": "/img/react-native-job/1.png"
+      }
+    ],
+    "stack": [
+      { "key": "react", "name": "React", "type": "devicon" },
+      { "key": "react-native", "name": "React Native", "type": "devicon" },
+      { "key": "expo", "name": "Expo", "type": "devicon" },
+      { "key": "axios", "name": "Axios", "type": "devicon" },
+      { "key": "rapidapi", "name": "RapidAPI", "type": "devicon" },
+      { "key": "javascript", "name": "JavaScript", "type": "devicon" }
+    ]
+  },
+  {
     "project": "Ecommerce Store (Dashboard & CMS)",
     "url": "https://github.com/aryantayal/ecom",
     "repo": "Public",

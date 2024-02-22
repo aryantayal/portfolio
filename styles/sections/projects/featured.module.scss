@@ -39,7 +39,7 @@
 	gap: var(--size-3x);
 
 	p {
-		font-size: 1.75rem;
+		font-size: 1.2rem;
 		line-height: 1.2;
 
 		strong {
@@ -277,8 +277,12 @@
 			}
 
 			.imageContainer {
+				display: none;
 				height: 100px;
 				width: 100%;
+				right: -24px;
+				top: 24px;
+				
 			}
 
 			.imageAnimationContainer {

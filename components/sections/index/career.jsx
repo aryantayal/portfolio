@@ -26,9 +26,58 @@ export default function Career() {
         <SectionTitle
           title="Experience"
           preTitle="Career"
-          subTitle="I am currently a Application Development Engineer, developing a customer portal for American Family Insurance."
+          subTitle="I am currently a Application Development Engineer for Discover Financial Services, innovating the mobile app experience for customers."
         />
         <section className={career.area}>
+          <article className={career.company}>
+            <div className={career.companyContent}>
+              <span className={career.companyHeader}>
+                <h3>Discover Financial Services</h3>
+                <h4>Full-time</h4>
+                <h4>April 2024 - Present &middot; Current</h4>
+                <h5>Riverwoods, Illinois</h5>
+              </span>
+              <p>
+                Discover Financial Services is a leading direct banking and
+                payment services company based in Riverwoods, Illinois. As one
+                of the largest credit card issuers in the United States,
+                Discover operates the Discover Network with millions of merchant
+                and cash access locations worldwide. Their diverse suite of
+                financial products and services includes credit cards, personal
+                and student loans, online banking, and home equity loans,
+                catering to both consumer and commercial clients across the
+                nation.
+              </p>
+            </div>
+            <div className={career.companyAlt}></div>
+          </article>
+
+          <article className={career.companyPositions}>
+            <div className={career.position}>
+              <div className={career.positionContent}>
+                <span className={career.positionHeader}>
+                  <h3>Senior Associate Application Engineer</h3>
+                  <h4>April 2024 - Present &middot; Current</h4>
+                </span>
+                <div>
+                  <p>
+                    {/* <ul className="bullet-points">
+                      <li>
+                        // Add your responsibilities and accomplishments here
+                      </li>
+                    </ul> */}
+                  </p>
+                  <Badges
+                    list={fullStack}
+                    block="stack"
+                    fullContainer="fullContainer"
+                  />
+                </div>
+              </div>
+              <div className={career.positionAlt}></div>
+            </div>
+          </article>
+
           <article className={career.company}>
             <div className={career.companyContent}>
               <span className={career.companyHeader}>
@@ -54,7 +103,7 @@ export default function Career() {
               <div className={career.positionContent}>
                 <span className={career.positionHeader}>
                   <h3>Application Development Engineer</h3>
-                  <h4>July 2021 - Present &middot; 2 yrs 6 months</h4>
+                  <h4>July 2021 - April 2024 &middot; 2 yrs 10 months</h4>
                 </span>
                 <div>
                   <p>

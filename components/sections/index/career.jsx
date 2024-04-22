@@ -68,7 +68,7 @@ export default function Career() {
                     </ul> */}
                   </p>
                   <Badges
-                    list={fullStack}
+                    list={discoverBadges}
                     block="stack"
                     fullContainer="fullContainer"
                   />
@@ -233,7 +233,23 @@ export default function Career() {
     </Section>
   );
 }
-
+const discoverBadges = [
+  { key: "react-native", name: "React Native", type: "devicon" },
+  { key: "react", name: "React", type: "devicon" },
+  { key: "javascript", name: "JavaScript", type: "devicon" },
+  { key: "typescript", name: "TypeScript", type: "devicon" },
+  { key: "nodejs", name: "NodeJS", type: "devicon" },
+  { key: "amazonwebservices", name: "Amazon Web Services", type: "devicon" },
+  { key: "jest", name: "Jest", type: "devicon" },
+  { key: "html5", name: "HTML", type: "devicon" },
+  { key: "css3", name: "CSS", type: "devicon" },
+  { key: "git", name: "Git", type: "devicon" },
+  { key: "figma", name: "Figma", type: "devicon" },
+  { key: "terraform", name: "Terraform", type: "devicon" },
+  { key: "materialui", name: "Material UI", type: "devicon" },
+  { key: "jira", name: "Jira", type: "devicon" },
+  { key: "confluence", name: "Confluence", type: "devicon" },
+];
 const fullStack = [
   { key: "angularjs", name: "Angular", type: "devicon" },
   { key: "react", name: "React", type: "devicon" },

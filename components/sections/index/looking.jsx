@@ -27,7 +27,7 @@ export default function Looking() {
         spacing={["verticalXXXLrg"]}
       >
         <h4>I&apos;m a</h4>
-        <h2 className={looking.json}>Junior : &#123;</h2>
+        <h2 className={looking.json}>Senior : &#123;</h2>
         <h2 className={looking.jsonSub}>
           <span className={looking.highlight}>Full Stack Engineer</span>,
         </h2>

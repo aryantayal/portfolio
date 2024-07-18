@@ -31,22 +31,22 @@ export default function Career() {
         <section className={career.area}>
           <article className={career.company}>
             <div className={career.companyContent}>
-              <span className={career.companyHeader}>
+              <div className={career.companyHeader}>
                 <h3>Discover Financial Services</h3>
                 <h4>Full-time</h4>
                 <h4>April 2024 - Present &middot; Current</h4>
-                <h5>Riverwoods, Illinois</h5>
-              </span>
-              <p>
+                <h5>Chicago, Illinois</h5>
+              </div>
+              <p className={career.description}>
                 Discover Financial Services is a leading direct banking and
                 payment services company based in Riverwoods, Illinois. As one
                 of the largest credit card issuers in the United States,
-                Discover operates the Discover Network with millions of merchant
-                and cash access locations worldwide. Their diverse suite of
-                financial products and services includes credit cards, personal
-                and student loans, online banking, and home equity loans,
-                catering to both consumer and commercial clients across the
-                nation.
+                Discover operates the Discover Network with millions of
+                merchants and cash access locations worldwide. Their diverse
+                suite of financial products and services includes credit cards,
+                personal and student loans, online banking, and home equity
+                loans, catering to both consumer and commercial clients across
+                the nation.
               </p>
             </div>
             <div className={career.companyAlt}></div>
@@ -55,18 +55,19 @@ export default function Career() {
           <article className={career.companyPositions}>
             <div className={career.position}>
               <div className={career.positionContent}>
-                <span className={career.positionHeader}>
+                <div className={career.positionHeader}>
                   <h3>Senior Associate Application Engineer</h3>
                   <h4>April 2024 - Present &middot; Current</h4>
-                </span>
+                </div>
                 <div>
-                  <p>
-                    {/* <ul className="bullet-points">
-                      <li>
-                        // Add your responsibilities and accomplishments here
-                      </li>
-                    </ul> */}
-                  </p>
+                  <ul className={`${career.bulletPoints} bullet-points`}>
+                    <li>
+                      - Develop features for the Discover Banking Mobile App
+                      (iOS & Android), utilized by 6,000,000+ daily active users
+                      to check account balance, view account info, make and edit
+                      payments, manage rewards, etc.
+                    </li>
+                  </ul>
                   <Badges
                     list={discoverBadges}
                     block="stack"
@@ -80,13 +81,13 @@ export default function Career() {
 
           <article className={career.company}>
             <div className={career.companyContent}>
-              <span className={career.companyHeader}>
+              <div className={career.companyHeader}>
                 <h3>American Family Insurance</h3>
                 <h4>Full-time</h4>
                 <h4>July 2021 - Present &middot; 2 yrs 6 months</h4>
                 <h5>Madison, Wisconsin (Remote)</h5>
-              </span>
-              <p>
+              </div>
+              <p className={career.description}>
                 Madison, Wisconsin-based, American Family Insurance group is the
                 nation&apos;s 13th-largest property/casualty insurance group and
                 ranks No. 251 on the Fortune 500 list. American Family sells
@@ -101,73 +102,63 @@ export default function Career() {
           <article className={career.companyPositions}>
             <div className={career.position}>
               <div className={career.positionContent}>
-                <span className={career.positionHeader}>
+                <div className={career.positionHeader}>
                   <h3>Application Development Engineer</h3>
                   <h4>July 2021 - April 2024 &middot; 2 yrs 10 months</h4>
-                </span>
+                </div>
                 <div>
-                  <p>
-                    <ul className="bullet-points">
-                      <li>
-                        Develop MyAccount, a web application utilized by
-                        5,000,000+ customers to manage policies, payments, file
-                        claims, access insurance card/information, etc.
-                      </li>
-                      <br />
-                      <li>
-                        - Design, collaborate and successfully migrate several
-                        applications to AWS. Maintain a monorepo that includes
-                        SPAs and APIs hosted on AWS – Angular/TypeScript,
-                        NodeJs, NgRx, RxJS
-                      </li>
-
-                      <li>
-                        - Develop a Context API to upsell customers on new
-                        policies resulting in achieving upsell goals 5 months in
-                        advance – NestJS, NodeJS, AWS
-                      </li>
-
-                      <li>
-                        - Streamlined CI/CD processes, integrating security
-                        scans, testing, and multi-environment deployment and
-                        created Lambda functions to cache multiple API responses
-                        to reduce AWS cost. – AWS Lambda, CloudFormation,
-                        CloudFront, S3
-                      </li>
-
-                      <li>
-                        - Spearheaded the design and development of a ReactJs
-                        dashboard used by 100+ Project Managers and Product
-                        Owners to identify prioritization of new work, improve
-                        sales and IVANS downloads – Material UI, MobX, AWS,
-                        Figma
-                      </li>
-
-                      <li>
-                        - Implement a Terraform Module template for all tech
-                        types to push/pull packages to/from Enterprise
-                        Artifactory for all Enterprise developers to utilize –
-                        JFrog, NodeJS, Maven, PIP, AWS, Octopus Deploy
-                      </li>
-
-                      <li>
-                        - Conduct end to end / unit code testing by creating
-                        Cypress & Jest tests and implement Adobe Analytics to
-                        ensure application stability and a user friendly
-                        experience
-                      </li>
-
-                      <li>
-                        - Practice Agile framework and take on leadership
-                        responsibilities by creating new stories/tasks,
-                        maintaining backlog health and delegating tasks from
-                        Jira board. Write Confluence documentation for end users
-                        to maximize efficient application usage to derive
-                        desired results
-                      </li>
-                      <br />
-                    </ul>
-                  </p>
+                  <ul className={`${career.bulletPoints} bullet-points`}>
+                    <li>
+                      Develop MyAccount, a web application utilized by
+                      5,000,000+ customers to manage policies, payments, file
+                      claims, access insurance card/information, etc.
+                    </li>
+                    <br />
+                    <li>
+                      - Design, collaborate and successfully migrate several
+                      applications to AWS. Maintain a monorepo that includes
+                      SPAs and APIs hosted on AWS – Angular/TypeScript, NodeJs,
+                      NgRx, RxJS
+                    </li>
+                    <li>
+                      - Develop a Context API to upsell customers on new
+                      policies resulting in achieving upsell goals 5 months in
+                      advance – NestJS, NodeJS, AWS
+                    </li>
+                    <li>
+                      - Streamlined CI/CD processes, integrating security scans,
+                      testing, and multi-environment deployment and created
+                      Lambda functions to cache multiple API responses to reduce
+                      AWS cost. – AWS Lambda, CloudFormation, CloudFront, S3
+                    </li>
+                    <li>
+                      - Spearheaded the design and development of a ReactJs
+                      dashboard used by 100+ Project Managers and Product Owners
+                      to identify prioritization of new work, improve sales and
+                      IVANS downloads – Material UI, MobX, AWS, Figma
+                    </li>
+                    <li>
+                      - Implement a Terraform Module template for all tech types
+                      to push/pull packages to/from Enterprise Artifactory for
+                      all Enterprise developers to utilize – JFrog, NodeJS,
+                      Maven, PIP, AWS, Octopus Deploy
+                    </li>
+                    <li>
+                      - Conduct end to end / unit code testing by creating
+                      Cypress & Jest tests and implement Adobe Analytics to
+                      ensure application stability and a user friendly
+                      experience
+                    </li>
+                    <li>
+                      - Practice Agile framework and take on leadership
+                      responsibilities by creating new stories/tasks,
+                      maintaining backlog health and delegating tasks from Jira
+                      board. Write Confluence documentation for end users to
+                      maximize efficient application usage to derive desired
+                      results
+                    </li>
+                    <br />
+                  </ul>
                   <Badges
                     list={fullStack}
                     block="stack"

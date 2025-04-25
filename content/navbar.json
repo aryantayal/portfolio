@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "url": "/experience",
+    "title": "Experience"
+  },
+  {
+    "url": "/projects",
+    "title": "Projects"
+  }
+]

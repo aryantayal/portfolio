@@ -8,7 +8,6 @@ import ComingSoon from "../../components/sections/comingsoon";
 import settings from "../../content/_settings.json";
 import colors from "../../content/projects/_colors.json";
 
-export const runtime = "experimental-edge";
 //
 export default function Projects({ user, repos }) {
   return (

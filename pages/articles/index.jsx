@@ -8,7 +8,7 @@ import ComingSoon from "../../components/sections/comingsoon";
 import colors from "../../content/articles/_colors.json";
 import settings from "../../content/_settings.json";
 
-export const runtime = "edge";
+export const runtime = "experimental-edge";
 //
 export default function Articles({ mediumArticles }) {
   return (

@@ -62,10 +62,22 @@ export default function Career() {
                 <div>
                   <ul className={`${career.bulletPoints} bullet-points`}>
                     <li>
-                      - Develop features for the Discover Banking Mobile App
-                      (iOS & Android), utilized by 6,000,000+ daily active users
-                      to check account balance, view account info, make and edit
-                      payments, manage rewards, etc.
+                      - Enhance the Discover Mobile App (iOS & Android) used by
+                      6M+ daily active users for payments, account info, and
+                      rewards management
+                    </li>
+                    <li>
+                      - Built a dashboard to allow users to manage third-party
+                      data aggregator access, digital wallet integration, and
+                      fraud reporting tools
+                    </li>
+                    <li>
+                      - Implemented automated unit, integration, and E2E testing
+                      using Appium, Cucumber, Pact, and Jest
+                    </li>
+                    <li>
+                      - Used Adobe Analytics and DataDog to monitor app
+                      performance and ensure reliable user experiences
                     </li>
                   </ul>
                   <Badges
@@ -109,55 +121,24 @@ export default function Career() {
                 <div>
                   <ul className={`${career.bulletPoints} bullet-points`}>
                     <li>
-                      Develop MyAccount, a web application utilized by
-                      5,000,000+ customers to manage policies, payments, file
-                      claims, access insurance card/information, etc.
-                    </li>
-                    <br />
-                    <li>
-                      - Design, collaborate and successfully migrate several
-                      applications to AWS. Maintain a monorepo that includes
-                      SPAs and APIs hosted on AWS – Angular/TypeScript, NodeJs,
-                      NgRx, RxJS
+                      - Built and improved the MyAccount customer portal
+                      (Angular), serving 5M+ users for policy management,
+                      claims, and insurance access
                     </li>
                     <li>
-                      - Develop a Context API to upsell customers on new
-                      policies resulting in achieving upsell goals 5 months in
-                      advance – NestJS, NodeJS, AWS
+                      - Developed a Context API that drove upsell opportunities,
+                      helping meet policy goals months ahead of schedule
                     </li>
                     <li>
-                      - Streamlined CI/CD processes, integrating security scans,
-                      testing, and multi-environment deployment and created
-                      Lambda functions to cache multiple API responses to reduce
-                      AWS cost. – AWS Lambda, CloudFormation, CloudFront, S3
+                      - Optimized AWS infrastructure by integrating CI/CD
+                      pipelines with cost-saving Lambda caching and secure
+                      multi-environment deployments
                     </li>
                     <li>
-                      - Spearheaded the design and development of a ReactJs
-                      dashboard used by 100+ Project Managers and Product Owners
-                      to identify prioritization of new work, improve sales and
-                      IVANS downloads – Material UI, MobX, AWS, Figma
+                      - Led development of a React dashboard used by 100+ PMs
+                      and Product Owners to prioritize projects, track sales,
+                      and manage IVANS downloads
                     </li>
-                    <li>
-                      - Implement a Terraform Module template for all tech types
-                      to push/pull packages to/from Enterprise Artifactory for
-                      all Enterprise developers to utilize – JFrog, NodeJS,
-                      Maven, PIP, AWS, Octopus Deploy
-                    </li>
-                    <li>
-                      - Conduct end to end / unit code testing by creating
-                      Cypress & Jest tests and implement Adobe Analytics to
-                      ensure application stability and a user friendly
-                      experience
-                    </li>
-                    <li>
-                      - Practice Agile framework and take on leadership
-                      responsibilities by creating new stories/tasks,
-                      maintaining backlog health and delegating tasks from Jira
-                      board. Write Confluence documentation for end users to
-                      maximize efficient application usage to derive desired
-                      results
-                    </li>
-                    <br />
                   </ul>
                   <Badges
                     list={fullStack}

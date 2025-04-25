@@ -1,7 +1,7 @@
 {
   "intro": {
     "start": "const Aryan = ( name, passion ) =>",
-    "end": "Hello, my name is",
+    "end": "Hi, my name is",
     "speed": 60,
     "deletionSpeed": 80,
     "wrapper": "h2",
@@ -29,7 +29,7 @@
       "leaveSite": "true"
     },
     "tertiary": {
-      "title": "Lets Chat",
+      "title": "Let's Chat",
       "url": "",
       "leaveSite": "true"
     }

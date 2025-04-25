@@ -30,8 +30,9 @@ export default function About() {
         <SectionTitle
           title="About Me"
           preTitle="Synopsis"
-          subTitle="With a diverse skill set that includes Full Stack Development, UI design, Branding, and Photography/Cinamatography. I am a well-rounded digital professional."
+          subTitle="I'm a multidisciplinary digital creative with a background in Full Stack Development, UI/UX Design, Branding, and Visual Storytelling. I thrive at the intersection of design, technology, and strategy."
         />
+
         <section className={about.content}>
           <div className={about.image}>
             <Image
@@ -43,21 +44,21 @@ export default function About() {
           </div>
           <div className={about.copy}>
             <CopyBlock
-              title="Softskills that pay the bills"
+              title="Soft Skills That Drive Results"
               containerClass={about.container}
               iconClass={about.icon}
               icon={["fat", "ear-listen"]}
-              copy="In addition to my technical expertise — I also have strong leadership, time management, and multitasking skills—honed through my experience as a business owner and as an avid learner. Outside of work, I enjoy trying new coffee shops with friends, shooting videos, playing golf, managing my business and reading books. I am confident in my ability to bring passion and diverse value to any project."
+              copy="Beyond the code and creative tools, I bring strong leadership, time management, and multitasking skills—refined through running my own business and consistently pushing myself as a lifelong learner. When I'm not working, you'll find me exploring new coffee shops with friends, filming content, playing golf, managing my business and reading books. I am confident in my ability to bring passion and diverse value to any project."
             />
+
             <BadgesBlock
-              title="Reasearch and planning"
+              title="Research & Vision Execution"
               containerClass={about.container}
               list={methods}
               fullContainer="fullContainer"
               block="methods"
               icon="fingerprint"
-              copy="One of my favorite aspects of creating is seeing a project come to fruition and watching my dedication drive me to working on a vision that I believe in."
-              //invertedColor="invertedColor"
+              copy="One of the most fulfilling parts of my creative process is transforming ideas into tangible results. I love diving deep into a vision, crafting a plan, and bringing it to life with strategy, intention, and heart."
               headerIcon={`${about.icon}`}
             />
           </div>

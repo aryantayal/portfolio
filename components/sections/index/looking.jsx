@@ -32,15 +32,16 @@ export default function Looking() {
           <span className={looking.highlight}>Full Stack Engineer</span>,
         </h2>
         <h2 className={looking.jsonSub}>
-          <span className={looking.highlight2}>Front End Engineer</span>
+          <span className={looking.highlight2}>Front-End Engineer</span>
         </h2>
         <h2 className={looking.json}>&#125;</h2>
         <h4>
-          I am particularily interested in product facing and data visualization
-          positions where I can help make an organization wide impact.
+          I’m especially passionate about working on product-focused teams where
+          design and data intersect. I’m looking for opportunities to help build
+          scalable solutions, create meaningful user experiences, and drive
+          organization-wide impact through thoughtful development and
+          collaboration.
         </h4>
-        {/* <h2>Senior <span className={looking.highlight}>User Experience</span> Designer</h2> */}
-        {/* <p className="subtitle">with a focus on Product Design.</p> */}
       </Container>
     </Section>
   );

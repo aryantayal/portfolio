@@ -24,6 +24,7 @@ import "../node_modules/devicon/devicon.min.css";
 // Global css
 import "../styles/css/variables.css";
 import "../styles/css/global.css";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 /**
  * _app.jsx
@@ -36,6 +37,7 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <LazyMotion features={domAnimation}>
+        <SpeedInsights />
         <Layout>
           <Component {...pageProps} />
           <SetGridGap />

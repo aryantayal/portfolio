@@ -132,7 +132,13 @@ export default function Career() {
           <article className={career.company}>
             <div className={career.companyContent}>
               <div className={career.companyHeader}>
-                <h3>Discover Financial Services</h3>
+                <a
+                  href="https://discover.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <h3>Discover Financial Services</h3>
+                </a>
                 <h4>Full-time</h4>
                 <h4>April 2024 - April 2025 &middot; 1 yr 1 month</h4>
                 <h5>Chicago, Illinois</h5>
@@ -193,7 +199,13 @@ export default function Career() {
           <article className={career.company}>
             <div className={career.companyContent}>
               <div className={career.companyHeader}>
-                <h3>American Family Insurance</h3>
+                <a
+                  href="https://amfam.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <h3>American Family Insurance</h3>
+                </a>
                 <h4>Full-time</h4>
                 <h4>July 2021 - Present &middot; 2 yrs 6 months</h4>
                 <h5>Madison, Wisconsin (Remote)</h5>

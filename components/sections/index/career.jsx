@@ -26,15 +26,61 @@ export default function Career() {
         <SectionTitle
           title="Experience"
           preTitle="Career"
-          subTitle="I am currently a Application Development Engineer for Discover Financial Services, innovating the mobile app experience for customers."
+          subTitle="I am currently a Demo Engineer for Stripe."
         />
         <section className={career.area}>
           <article className={career.company}>
             <div className={career.companyContent}>
               <div className={career.companyHeader}>
+                <h3>Stripe</h3>
+                <h4>Full-time</h4>
+                <h4>April 2025 - Present &middot; Current</h4>
+                <h5>Chicago, Illinois</h5>
+              </div>
+              <p className={career.description}>
+                Stripe is a technology company that builds economic
+                infrastructure for the internet, enabling businesses of all
+                sizes to accept payments, send payouts, and manage online
+                financial operations. It is revolutionizing the online payments
+                industry—processing over $1 trillion in payment volume
+                annually—and powers global commerce for everyone from
+                high-growth startups to Fortune 500 companies.
+              </p>
+            </div>
+            <div className={career.companyAlt}></div>
+          </article>
+
+          <article className={career.companyPositions}>
+            <div className={career.position}>
+              <div className={career.positionContent}>
+                <div className={career.positionHeader}>
+                  <h3>Demo Engineer</h3>
+                  <h4>April 2024 - Present &middot; Current</h4>
+                </div>
+                <div>
+                  {/* <ul className={`${career.bulletPoints} bullet-points`}>
+                    <li>
+                      - Enhance the Discover Mobile App (iOS & Android) used by
+                      6M+ daily active users for payments, account info, and
+                      rewards management
+                    </li>
+                  </ul> */}
+                  <Badges
+                    list={stripeBadges}
+                    block="stack"
+                    fullContainer="fullContainer"
+                  />
+                </div>
+              </div>
+              <div className={career.positionAlt}></div>
+            </div>
+          </article>
+          <article className={career.company}>
+            <div className={career.companyContent}>
+              <div className={career.companyHeader}>
                 <h3>Discover Financial Services</h3>
                 <h4>Full-time</h4>
-                <h4>April 2024 - Present &middot; Current</h4>
+                <h4>April 2024 - April 2025 &middot; 1 yr 1 month</h4>
                 <h5>Chicago, Illinois</h5>
               </div>
               <p className={career.description}>
@@ -50,6 +96,38 @@ export default function Career() {
               </p>
             </div>
             <div className={career.companyAlt}></div>
+          </article>
+          <article className={career.companyPositions}>
+            <div className={career.position}>
+              <div className={career.positionContent}>
+                <span className={career.positionHeader}>
+                  <h3>Founder</h3>
+                  <h4>April 2020 - Present &middot; 4 years</h4>
+                </span>
+                <div>
+                  <p>
+                    <ul className="bullet-points">
+                      <li>
+                        - Oversee all aspects of the business, including
+                        marketing, customer relations, inquiries, and finances,
+                        ensuring exceptional customer satisfaction and achieving
+                        significant growth in revenue.
+                      </li>
+                      <li>
+                        - Create and streamlined business automation flows,
+                        resulting in increased efficiency and productivity.
+                      </li>
+                    </ul>
+                  </p>
+                  <Badges
+                    list={photo}
+                    block="stack"
+                    fullContainer="fullContainer"
+                  />
+                </div>
+              </div>
+              <div className={career.positionAlt}></div>
+            </div>
           </article>
 
           <article className={career.companyPositions}>
@@ -150,11 +228,11 @@ export default function Career() {
               <div className={career.positionAlt}></div>
             </div>
           </article>
-          {/* <article className={career.company}>
+          <article className={career.company}>
             <div className={career.companyContent}>
               <span className={career.companyHeader}>
                 <h3>Bloom Media</h3>
-                <h4>April 2020 - Present &middot; 3 yrs 10 months</h4>
+                <h4>April 2020 - Present &middot; 5 yrs</h4>
                 <h5>Kansas City Missouri</h5>
               </span>
               <p>
@@ -166,45 +244,30 @@ export default function Career() {
             </div>
             <div className={career.companyAlt}></div>
           </article>
-
-          <article className={career.companyPositions}>
-            <div className={career.position}>
-              <div className={career.positionContent}>
-                <span className={career.positionHeader}>
-                  <h3>Founder</h3>
-                  <h4>April 2020 - Present &middot; 3 yrs 10 months</h4>
-                </span>
-                <div>
-                  <p>
-                    <ul className="bullet-points">
-                      <li>
-                        - Oversaw all aspects of the business, including
-                        marketing, customer relations, inquiries, and finances,
-                        ensuring exceptional customer satisfaction and achieving
-                        significant growth in revenue.
-                      </li>
-                      <li>
-                        - Created and streamlined business automation flows,
-                        resulting in increased efficiency and productivity.
-                      </li>
-                      <li>- Maintain all social media platforms to</li>
-                    </ul>
-                  </p>
-                  <Badges
-                    list={photo}
-                    block="stack"
-                    fullContainer="fullContainer"
-                  />
-                </div>
-              </div>
-              <div className={career.positionAlt}></div>
-            </div>
-          </article> */}
         </section>
       </Container>
     </Section>
   );
 }
+const stripeBadges = [
+  { key: "nextjs-plain", name: "NextJs", type: "devicon" },
+  { key: "react-native", name: "React Native", type: "devicon" },
+  { key: "react", name: "React", type: "devicon" },
+  { key: "javascript", name: "JavaScript", type: "devicon" },
+  { key: "typescript", name: "TypeScript", type: "devicon" },
+  { key: "nodejs", name: "NodeJS", type: "devicon" },
+  { key: "amazonwebservices", name: "Amazon Web Services", type: "devicon" },
+  { key: "googlecloud-plain", name: "Google Cloud", type: "devicon" },
+  { key: "jest", name: "Jest", type: "devicon" },
+  { key: "html5", name: "HTML", type: "devicon" },
+  { key: "css3", name: "CSS", type: "devicon" },
+  { key: "git", name: "Git", type: "devicon" },
+  { key: "figma", name: "Figma", type: "devicon" },
+  { key: "terraform", name: "Terraform", type: "devicon" },
+  { key: "materialui", name: "Material UI", type: "devicon" },
+  { key: "jira", name: "Jira", type: "devicon" },
+  { key: "confluence", name: "Confluence", type: "devicon" },
+];
 const discoverBadges = [
   { key: "react-native", name: "React Native", type: "devicon" },
   { key: "react", name: "React", type: "devicon" },
@@ -217,8 +280,6 @@ const discoverBadges = [
   { key: "css3", name: "CSS", type: "devicon" },
   { key: "git", name: "Git", type: "devicon" },
   { key: "figma", name: "Figma", type: "devicon" },
-  { key: "terraform", name: "Terraform", type: "devicon" },
-  { key: "materialui", name: "Material UI", type: "devicon" },
   { key: "jira", name: "Jira", type: "devicon" },
   { key: "confluence", name: "Confluence", type: "devicon" },
 ];

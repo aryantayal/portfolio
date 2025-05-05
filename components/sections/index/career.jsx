@@ -32,7 +32,13 @@ export default function Career() {
           <article className={career.company}>
             <div className={career.companyContent}>
               <div className={career.companyHeader}>
-                <h3>Stripe</h3>
+                <a
+                  href="https://stripe.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <h3>Stripe</h3>
+                </a>
                 <h4>Full-time</h4>
                 <h4>April 2025 - Present &middot; Current</h4>
                 <h5>Chicago, Illinois</h5>
@@ -77,22 +83,16 @@ export default function Career() {
           </article>
           <article className={career.company}>
             <div className={career.companyContent}>
-              <div className={career.companyHeader}>
-                <h3>Discover Financial Services</h3>
-                <h4>Full-time</h4>
-                <h4>April 2024 - April 2025 &middot; 1 yr 1 month</h4>
-                <h5>Chicago, Illinois</h5>
-              </div>
-              <p className={career.description}>
-                Discover Financial Services is a leading direct banking and
-                payment services company based in Riverwoods, Illinois. As one
-                of the largest credit card issuers in the United States,
-                Discover operates the Discover Network with millions of
-                merchants and cash access locations worldwide. Their diverse
-                suite of financial products and services includes credit cards,
-                personal and student loans, online banking, and home equity
-                loans, catering to both consumer and commercial clients across
-                the nation.
+              <span className={career.companyHeader}>
+                <h3>Bloom Media</h3>
+                <h4>April 2020 - Present &middot; 4 yrs</h4>
+                <h5>Kansas City Missouri</h5>
+              </span>
+              <p>
+                Kansas City, Missouri based, Bloom Media brings high quality
+                photo and video services to the Midwest area. Over the past 4
+                years, Bloom Media has serviced 40+ weddings and continuing to
+                serve more.
               </p>
             </div>
             <div className={career.companyAlt}></div>
@@ -114,7 +114,7 @@ export default function Career() {
                         significant growth in revenue.
                       </li>
                       <li>
-                        - Create and streamlined business automation flows,
+                        - Create and streamline business automation flows,
                         resulting in increased efficiency and productivity.
                       </li>
                     </ul>
@@ -129,7 +129,28 @@ export default function Career() {
               <div className={career.positionAlt}></div>
             </div>
           </article>
-
+          <article className={career.company}>
+            <div className={career.companyContent}>
+              <div className={career.companyHeader}>
+                <h3>Discover Financial Services</h3>
+                <h4>Full-time</h4>
+                <h4>April 2024 - April 2025 &middot; 1 yr 1 month</h4>
+                <h5>Chicago, Illinois</h5>
+              </div>
+              <p className={career.description}>
+                Discover Financial Services is a leading direct banking and
+                payment services company based in Riverwoods, Illinois. As one
+                of the largest credit card issuers in the United States,
+                Discover operates the Discover Network with millions of
+                merchants and cash access locations worldwide. Their diverse
+                suite of financial products and services includes credit cards,
+                personal and student loans, online banking, and home equity
+                loans, catering to both consumer and commercial clients across
+                the nation.
+              </p>
+            </div>
+            <div className={career.companyAlt}></div>
+          </article>
           <article className={career.companyPositions}>
             <div className={career.position}>
               <div className={career.positionContent}>
@@ -227,22 +248,6 @@ export default function Career() {
               </div>
               <div className={career.positionAlt}></div>
             </div>
-          </article>
-          <article className={career.company}>
-            <div className={career.companyContent}>
-              <span className={career.companyHeader}>
-                <h3>Bloom Media</h3>
-                <h4>April 2020 - Present &middot; 5 yrs</h4>
-                <h5>Kansas City Missouri</h5>
-              </span>
-              <p>
-                Kansas City, Missouri based, Bloom Media brings high quality
-                photo and video services to the Midwest area. Over the past 3
-                years, Bloom Media has serviced 40+ weddings and continuing to
-                serve more.
-              </p>
-            </div>
-            <div className={career.companyAlt}></div>
           </article>
         </section>
       </Container>
